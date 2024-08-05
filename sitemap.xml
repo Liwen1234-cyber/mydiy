@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://minddiy.top/posts/6ae0.html</loc>
-    
-    <lastmod>2024-08-05</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://minddiy.top/gallery/%E7%90%AA%E7%90%AA/index.html</loc>
     
     <lastmod>2024-06-09</lastmod>
@@ -26,13 +19,6 @@
     <loc>https://minddiy.top/secret/%E7%90%AA%E5%AE%9D%E6%AF%95%E4%B8%9A/index.html</loc>
     
     <lastmod>2024-06-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://minddiy.top/posts/990a.html</loc>
-    
-    <lastmod>2024-05-27</lastmod>
     
   </url>
   
@@ -114,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/vote/index.html</loc>
+    <loc>https://minddiy.top/videos/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://minddiy.top/videos/index.html</loc>
+    <loc>https://minddiy.top/vote/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -135,7 +121,7 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/project/index.html</loc>
+    <loc>https://minddiy.top/record/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -149,7 +135,7 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/record/index.html</loc>
+    <loc>https://minddiy.top/project/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -163,14 +149,14 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/essay/index.html</loc>
+    <loc>https://minddiy.top/donate/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://minddiy.top/donate/index.html</loc>
+    <loc>https://minddiy.top/essay/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -249,13 +235,6 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/tags/conda/</loc>
-    <lastmod>2024-08-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://minddiy.top/tags/%E6%88%90%E9%95%BF/</loc>
     <lastmod>2024-08-05</lastmod>
     <changefreq>daily</changefreq>
@@ -264,13 +243,6 @@
   
   <url>
     <loc>https://minddiy.top/tags/%E4%BA%BA%E9%97%B4/</loc>
-    <lastmod>2024-08-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://minddiy.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -293,13 +265,6 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/categories/%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2024-08-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://minddiy.top/categories/%E6%88%90%E9%95%BF/</loc>
     <lastmod>2024-08-05</lastmod>
     <changefreq>daily</changefreq>
@@ -308,13 +273,6 @@
   
   <url>
     <loc>https://minddiy.top/categories/%E8%AE%A8%E8%AE%BA/</loc>
-    <lastmod>2024-08-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://minddiy.top/categories/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
