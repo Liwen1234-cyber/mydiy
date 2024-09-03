@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our To-Do List</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+            font-weight: 100;
+            background-color: #FAF9F6;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        table {
+            border-collapse: collapse;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        th {
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        .primary {
+            width: 80vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card {
+            padding: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<div class="primary">
+    <div class="card">
+        <h1>Love Checklist</h1>
+        <p>
+            This is the task list I envision. I hope to complete all the tasks with you.
+        </p>
+        <p>Total Tasks Tracked: <b id="total"></b></p>
+    </div>
+
+    <br/>
+    <table class="card" id="table">
+        <tr>
+            <th>Title</th>
+            <th>Rating</th>
+            <th>Notes</th>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <div class="card" id="comments"></div>
+</div>
+<script>
+    // list of comments
+    // if you want to leave a comment, add to this list.
+    const comments = [
+        {
+            name: "77",
+            githubLink: "https://minddiy.top/HTML/3/index.html",
+            comment: "There is still a great deal to be done. Taking time to reflect and take action is essential."
+        }
+    ]
+
+    // list of movies
+    const movies = [
+        {
+            title: "ride the Ferris wheel",
+            rating: 10,
+            notes: "My orignal favourite wish of all time.",
+        },
+        {
+            title: "watch the starry sky",
+            rating: 10,
+        },
+        {
+            title: "go see the ocean once and go to the beach",
+            rating: 10,
+        },
+        {
+            title: "go to a Disney amusement park",
+            rating: 10,
+        },
+        {
+            title: "go on a hot air balloon ride",
+            rating: 10,
+        },
+        {
+            title: "sing a song and record it",
+            rating: 10,
+        },
+        {
+            title: "read a book and share your favourite books",
+            rating: 10,
+        },
+        {
+            title: "catch a TV show on a rainy day",
+            rating: 10,
+        },
+        {
+            title: "make a cake for dessert",
+            rating: 10,
+        },
+        {
+            title: "watch the sunrise and sunset",
+            rating: 10,
+        },
+        {
+            title: "play skateboarding",
+            rating: 10,
+        },
+        {
+            title: "play a video game",
+            rating: 10,
+        },
+        {
+            title: "go for a family meal",
+            rating: 10,
+        },
+        {
+            title: "play poker",
+            rating: 10,
+        },
+        {
+            title: "go to Tiananmen Square to watch the national flag being raised",
+            rating: 10,
+        },
+        {
+            title: "eat hot pot",
+            rating: 10,
+        },
+        {
+            title: "go to church once",
+            rating: 10,
+        },
+        {
+            title: "see the snow and build a snowman",
+            rating: 10,
+        },
+        {
+            title: "to complain about each other's shortcomings",
+            rating: 10,
+        },
+        {
+            title: "be a stranger for a day, no communication",
+            rating: 10,
+        },
+        {
+            title: "save money",
+            rating: 10,
+        },
+        {
+            title: "go on a boat ride",
+            rating: 10,
+        },
+        {
+            title: "go to see cherry blossoms",
+            rating: 10,
+        },
+        {
+            title: "DIY crafts",
+            rating: 10,
+        },
+        {
+            title: "go to our primary school, secondary school and university",
+            rating: 10,
+        },
+        {
+            title: "Take photos, wash them and put them in my room",
+            rating: 10,
+        },
+        {
+            title: "Go to a concert",
+            rating: 10,
+        },
+        {
+            title: "Buy each other favourite gifts secretly",
+            rating: 10,
+        },
+        {
+            title: "go to a comedy show",
+            rating: 10,
+        },
+        {
+            title: "get off at a place we've never been before",
+            rating: 10,
+        },
+        {
+            title: "make a wish at a wishing fountain",
+            rating: 10,
+        },
+        {
+            title: "accompany each other to act out your favourite movie once",
+            rating: 10,
+        },
+        {
+            title: "go to a square dance",
+            rating: 10,
+        },
+        {
+            title: "walk in the rain",
+            rating: 10,
+        },
+        {
+            title: "put on a lantern",
+            rating: 10,
+        },
+        {
+            title: "pick up fallen leaves",
+            rating: 10,
+        },
+        {
+            title: "hang a doll",
+            rating: 10,
+        },
+        {
+            title: "Eat grilled fish",
+            rating: 10,
+        },
+        {
+            title: "Have a midnight snack",
+            rating: 10,
+        },
+        {
+            title: "playing badminton",
+            rating: 10,
+        },
+        {
+            title: "go to the food market",
+            rating: 10,
+        },
+        {
+            title: "playing video games",
+            rating: 10,
+        },
+        {
+            title: "watching football matches",
+            rating: 10,
+        },
+        {
+            title: "Scratching lottery tickets",
+            rating: 10,
+        },
+        {
+            title: "Working out",
+            rating: 10,
+        },
+        {
+            title: "~~ Introduce to each other's friends ~~",
+            rating: 10,
+        },
+        {
+            title: "arguing",
+            rating: 10,
+        },
+        {
+            title: "Shopping at the flower and bird market",
+            rating: 10,
+        },
+        {
+            title: "Go to Nanshan Mountain to pray for blessings",
+            rating: 10,
+        },
+        {
+            title: "Take the green train",
+            rating: 10,
+        },
+        {
+            title: "Putting out Kongming Lanterns",
+            rating: 10,
+        },
+        {
+            title: "Outing in the countryside",
+            rating: 10,
+        },
+        {
+            title: "Helicopter ride",
+            rating: 10,
+        },
+        {
+            title: "Fishing",
+            rating: 10,
+        },
+        {
+            title: "Diving",
+            rating: 10,
+        },
+        {
+            title: "Surfing",
+            rating: 10,
+        },
+        {
+            title: "camping",
+            rating: 10,
+        },
+        {
+            title: "climbing",
+            rating: 10,
+        },
+        {
+            title: "Rafting",
+            rating: 10,
+        },
+        {
+            title: "Drinking",
+            rating: 10,
+        },
+        {
+            title: "Foot bath",
+            rating: 10,
+        },
+        {
+            title: "Travelling abroad",
+            rating: 10,
+        },
+        {
+            title: "Shopping at Ikea",
+            rating: 10,
+        },
+        {
+            title: "shopping at night market",
+            rating: 10,
+        },
+        {
+            title: "go to a vr museum",
+            rating: 10,
+        },
+        {
+            title: "play pool",
+            rating: 10,
+        },
+        {
+            title: "Playing Lego",
+            rating: 10,
+        },
+        {
+            title: "shop in a vintage shop",
+            rating: 10,
+        },
+        {
+            title: "Playing flying chess/Monopoly",
+            rating: 10,
+        },
+        {
+            title: "play a role-playing game",
+            rating: 10,
+        },
+        {
+            title: "getting a manicure with a girl",
+            rating: 10,
+        },
+        {
+            title: "go to a baking studio",
+            rating: 10,
+        },
+        {
+            title: "do perfume / aromatherapy diy",
+            rating: 10,
+        },
+        {
+            title: "go to a lecture of interest",
+            rating: 10,
+        },
+        {
+            title: "go to a wax museum",
+            rating: 10,
+        }
+
+    ]
+        .sort((a, b) => a.title.localeCompare(b.title))
+        .sort((a, b) => b.rating - a.rating);
+
+    function renderTable() {
+        const table = document.getElementById("table");
+        for (const movie of movies) {
+            const row = document.createElement("tr");
+            const title = document.createElement("td");
+            const rating = document.createElement("td");
+            const notes = document.createElement("td");
+
+            row.appendChild(title);
+            row.appendChild(rating);
+            row.appendChild(notes);
+
+            title.textContent = movie.title;
+            rating.textContent = movie.rating;
+            notes.textContent = movie.notes;
+
+            table.appendChild(row);
+        }
+    }
+
+    function renderComments() {
+        const commentsParent = document.getElementById("comments");
+        for (const comment of comments) {
+            const card = document.createElement("div");
+            const name = document.createElement("a");
+            const message = document.createElement("p");
+
+            card.appendChild(name);
+            card.appendChild(message);
+
+            name.innerText = comment.name;
+            name.href = comment.githubLink;
+            message.innerText = comment.comment;
+
+            commentsParent.appendChild(card);
+        }
+    }
+
+    function renderTotal() {
+        const total = document.getElementById("total");
+        total.innerText = movies.length;
+    }
+
+    renderTable();
+    renderComments();
+    renderTotal();
+</script>
+
+</body>
+</html>
