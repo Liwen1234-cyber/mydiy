@@ -135,13 +135,6 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/ticktack/index.html</loc>
-    
-    <lastmod>2023-12-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://minddiy.top/tags/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
@@ -150,6 +143,13 @@
   
   <url>
     <loc>https://minddiy.top/videos/index.html</loc>
+    
+    <lastmod>2023-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://minddiy.top/ticktack/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -170,7 +170,7 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/record/index.html</loc>
+    <loc>https://minddiy.top/project/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -184,7 +184,7 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/project/index.html</loc>
+    <loc>https://minddiy.top/record/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -335,14 +335,14 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/categories/%E8%BD%AC%E8%BD%BD/</loc>
+    <loc>https://minddiy.top/categories/%E8%AE%A8%E8%AE%BA/</loc>
     <lastmod>2024-09-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://minddiy.top/categories/%E8%AE%A8%E8%AE%BA/</loc>
+    <loc>https://minddiy.top/categories/%E8%BD%AC%E8%BD%BD/</loc>
     <lastmod>2024-09-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
