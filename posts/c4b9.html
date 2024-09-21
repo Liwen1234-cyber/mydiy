@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="books, Coisini">
+    <meta name="keywords" content="蓝眼睛和红眼睛, Coisini">
     <meta name="description" content="This is a dream">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -18,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>books | Coisini</title>
+    <title>蓝眼睛和红眼睛 | Coisini</title>
     
     <script>
         // 隐藏
@@ -806,546 +806,465 @@ class="themespring" -->
 </div>
 <!-- 春节主题模式样式结束 -->
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-        <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                    books
-                 
-            </div>
+    
 
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: ['Welcome to my blog, please visit!',''],
-                        startDelay: 200,
-                        typeSpeed: 120,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://bing.ee123.net/img/rand?w=1920x1080')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">蓝眼睛和红眼睛</h1>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
 
 
-    </div>
-    <div class="mohuxiaoguo"></div>
-</div>
-
-
+<main class="post-container content">
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
 <style>
-    /* .bg-cover {
-        background-image: url("/medias/banner/ticktackbg.jpg")!important;
-    } */
-    .bg-cover::before {
-        background-image: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/grid.png);
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+    .suibis[data-spmid="随笔"] {
+        width: 100%!important;
+    }
+    .toc-widget[data-spmid="随笔"],
+    #floating-toc-btn[data-spmid="随笔"]
+    {
+        display: none!important;
+    }
+     
+</style>
+
+<div class="row">
+    
+    
+        <div id="main-content" class="col s12 m12 l9 suibis" data-spmid="分享">
+            <style>
+    #switchspring {
+        bottom: 223px!important;
     }
     @media only screen and (max-width: 601px) {
         #switchspring {
             bottom: 178px!important;
         }
     }
-    #switchspring {
-        bottom: 223px;
+    #switchchristmas {
+        bottom: 281px!important;
     }
-    .card-content {
-        padding: 12px!important;
-    }
-    .miaoshus {
-        padding: 12px;
-        border: 1px dashed #e6e6e6;
-        color: #969696;
-        position: relative;
-        display: inline-block;
-        width: 95%;
-        background: #fbfbfb50;
-        border-radius: 10px;
-        font-size: 16px;
-        margin: 3px auto 0px;
-    }
-    body.dark .miaoshus {
-        background: 0 0;
-        border: 1px dashed #888;
-    }
-</style>
-<!-- 以下书单模块css样式 -->
-<style>
-    body.dark .page .content li {
-        background: rgba(34,34,34,0.55)!important;
-        border-radius: 12px;
-    }
-    @media screen and (min-width: 768px) {
-        #book .page {
-        /* background-color: hsla(0,0%,100%,.7); */
-        -webkit-box-shadow: 0 8px 16px rgba(0,0,0,.12);
-        box-shadow: 0 8px 16px rgba(0,0,0,.12);
+    @media only screen and (max-width: 601px) {
+        #switchchristmas {
+            bottom: 235px!important;
         }
     }
-    #book .page {
-        overflow: hidden;
-        border-radius: 3px;
+    .ititle {
+        margin: 15px 0;
+        text-align:center;
+        font-family: 'Architects Daughter', cursive;
     }
-    @media screen and (min-width: 768px) {
-        #book .content {
-            grid-template-columns: 1fr 1fr;
-        }
-    }
-    #book .content {
-        display: grid;
-        grid-column-gap: 16px;
-        padding: 16px;
-        text-align: justify;
-    }
-    #book .content li {
-        list-style: none;
-        margin-bottom: 16px;
-        border-radius: 3px;
-        background-color: hsla(0,0%,100%,.7);
-        -webkit-box-shadow: 0 14px 38px rgba(0,0,0,.08), 0 3px 8px rgba(0,0,0,.06);
-        box-shadow: 0 14px 38px rgba(0,0,0,.08), 0 3px 8px rgba(0,0,0,.06);
-        -webkit-transition: all .3s ease 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
-        transition: all .3s ease 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
-        transition: all .3s ease 0s,transform .6s cubic-bezier(.6,.2,.1,1) 0s;
-        transition: all .3s ease 0s,transform .6s cubic-bezier(.6,.2,.1,1) 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
-    }
-    #book .content li .info {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-        padding: 16px 12px 0;
-        line-height: 1.7;
-        list-style: none;
-    }
-    .book-container {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-perspective: 600px;
-        perspective: 600px;
-    }
-    .book {
+    .ipage {
+        line-height: 30px;
+        margin: 0 auto;
+        padding: 15px 32px 29px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+        -moz-border-radius-bottomleft: 20px 500px;
+        -moz-border-radius-bottomright: 500px 30px;
+        -moz-border-radius-topright: 5px 100px;	
+        -webkit-border-bottom-left-radius: 20px 500px;
+        -webkit-border-bottom-right-radius: 64px 10px;
+        -webkit-border-top-right-radius: 5px 100px;    
+        border-bottom-left-radius: 20px 500px;
+        border-bottom-right-radius: 64px 10px;
+        border-top-right-radius: 5px 100px;           
+        -webkit-background-size: 100% 30px;
+        -moz-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.2);
+        text-shadow: 0 1px 0 #F6EF97;
         position: relative;
-        width: 100px;
-        height: 150px;
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-        -webkit-transform: rotateY(-30deg);
-        transform: rotateY(-30deg);
-        -webkit-transition: 1s ease;
-        transition: 1s ease;
-        -webkit-animation: bookRotate 0s 1s ease 0s;
-        animation: bookRotate 0s 1s ease 0s;
-        list-style: none;
     }
-    .book:before {
-        content: " ";
-        position: absolute;
-        left: 0;
-        top: 2px;
-        width: 23px;
-        height: 146px;
-        -webkit-transform: translateX(84.5px) rotateY(90deg);
-        transform: translateX(84.5px) rotateY(90deg);
-        background: -webkit-gradient(linear,left top,right top,from(#fff),color-stop(5%,#f9f9f9),color-stop(10%,#fff),color-stop(15%,#f9f9f9),color-stop(20%,#fff),color-stop(25%,#f9f9f9),color-stop(30%,#fff),color-stop(35%,#f9f9f9),color-stop(40%,#fff),color-stop(45%,#f9f9f9),color-stop(50%,#fff),color-stop(55%,#f9f9f9),color-stop(60%,#fff),color-stop(65%,#f9f9f9),color-stop(70%,#fff),color-stop(75%,#f9f9f9),color-stop(80%,#fff),color-stop(85%,#f9f9f9),color-stop(90%,#fff),color-stop(95%,#f9f9f9),to(#fff));
-        background: linear-gradient(90deg,#fff,#f9f9f9 5%,#fff 10%,#f9f9f9 15%,#fff 20%,#f9f9f9 25%,#fff 30%,#f9f9f9 35%,#fff 40%,#f9f9f9 45%,#fff 50%,#f9f9f9 55%,#fff 60%,#f9f9f9 65%,#fff 70%,#f9f9f9 75%,#fff 80%,#f9f9f9 85%,#fff 90%,#f9f9f9 95%,#fff);
+.izhengwen {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: auto;
+    background: repeating-linear-gradient(to bottom, #f9f9f9, #f9f9f9 31px, #6BA2D8 1px, #f9f9f9);
+    background-size: 100% 32px;
+}
+.izhengwen p {
+    letter-spacing: .1rem;
+}
+#articleContent p {
+    margin: 0
+}
+.ititle {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.45rem!important;
+    padding: 10px auto;
+}
+.izhengwen p {
+    position: relative;
+    line-height: 2.2rem!important;
+    text-indent: 2em;
+    font-family: 'Architects Daughter', cursive!important;
+    font-size: 1.45rem!important;
+}
+.ipage::before {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    right: 52px;
+    z-index: 4;
+    width: 4px;
+    height: 100%;
+    border-left: 1px solid #fca1a1;
+}
+.izhengwen p:nth-child(odd):before {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -16px;
+    z-index: 3;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+}
+.ipage:after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 52px;
+    z-index: 3;
+    width: 4px;
+    height: 100%;
+    border-left: 4px double #fca1a1;
+}
+.ipage p {
+    padding: 0 2em;
+    color: #333!important;
+}
+body.dark .ipage {
+    opacity: 0.85;
+}
+/*小屏幕下(手机类)的样式*/
+@media only screen and (max-width: 600px) {
+    .ipage {
+        padding: 15px 23px 29px;
     }
-    .book>:first-child {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100px;
-        height: 150px;
-        -webkit-transform: translateZ(12.5px);
-        transform: translateZ(12.5px);
-        border-radius: 0 2px 2px 0;
-        -webkit-box-shadow: 5px 5px 20px #666;
-        box-shadow: 5px 5px 20px #666;
+    .ipage:after {
+        left: 36px;
     }
-    .book:after {
-        content: " ";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100px;
-        height: 150px;
-        -webkit-transform: translateZ(-12.5px);
-        transform: translateZ(-12.5px);
-        background-color: #555;
-        border-radius: 0 2px 2px 0;
+    .ipage::before {
+        right: 36px;    
     }
-    #book .content li .info>div {
-        margin-left: 26px;
+    .ipage p, .ititle {
+        padding: 0 0.9em;
     }
-    #book .content li .info h3 {
-        font-size: 16px;
-    }
-    #book .content li .info p a {
-        position: relative;
-        color: #b854d4;
-    }
-    #book .content li .info p a:before {
-        content: " " attr(href);
-        position: absolute;
-        padding: 0 4px;
-        width: -webkit-max-content;
-        width: -moz-max-content;
-        width: max-content;
-        pointer-events: none;
-        font-family: Fontello;
-        font-size: 12px;
-        -webkit-box-shadow: 0 14px 38px rgba(0,0,0,.08), 0 3px 8px rgba(0,0,0,.06);
-        box-shadow: 0 14px 38px rgba(0,0,0,.08), 0 3px 8px rgba(0,0,0,.06);
-        border-radius: 3px;
-        background-color: #fff;
-        opacity: 0;
-        -webkit-transform: scale(.7) translateY(-75%);
-        transform: scale(.7) translateY(-75%);
-        -webkit-transform-origin: left center;
-        transform-origin: left center;
-        -webkit-transition: all .3s ease 0s;
-        transition: all .3s ease 0s;
-    }
-    #book .content li .info p a:after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 1.5px;
-        background-color: #b854d4;
-        -webkit-transform: scaleX(0);
-        transform: scaleX(0);
-        -webkit-transform-origin: bottom right;
-        transform-origin: bottom right;
-        -webkit-transition: -webkit-transform .3s ease-out;
-        transition: -webkit-transform .3s ease-out;
-        transition: transform .3s ease-out;
-        transition: transform .3s ease-out,-webkit-transform .3s ease-out;
-    }
-    #book .content li .info .fa-star {
-        margin-right: 4px;
-        color: #d68fe9;
-    }
-    .icon-star:before {
-        content: "\e80b";
-    }
-    [class*=" icon-"]:before, [class^=icon-]:before {
-        font-family: Fontello;
-        font-style: normal;
-        font-weight: 400;
-        display: inline-block;
-        text-decoration: inherit;
-        width: 1em;
-        text-align: center;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1em;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
-    #book .content li .description {
-        padding: 12px;
-        font-size: 14px;
-        line-height: 1.7;
-    }
-    #book .content li .info p {
-        font-size: 14px;
-        line-height: 1.7;
 
-    }
-    @media screen and (min-width: 768px) {
-        #book .content li:hover {
-            -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
-            -webkit-box-shadow: 0 14px 38px rgba(0,0,0,.14), 0 3px 8px rgba(0,0,0,.12);
-            box-shadow: 0 14px 38px rgba(0,0,0,.14), 0 3px 8px rgba(0,0,0,.12);
-        }
-    }
-    #book .content li {
-        list-style: none;
-        margin-bottom: 16px;
-        border-radius: 3px;
-        background-color: hsla(0,0%,100%,.7);
-        -webkit-box-shadow: 0 14px 38px rgba(0,0,0,.08), 0 3px 8px rgba(0,0,0,.06);
-        box-shadow: 0 14px 38px rgba(0,0,0,.08), 0 3px 8px rgba(0,0,0,.06);
-        -webkit-transition: all .3s ease 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
-        transition: all .3s ease 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
-        transition: all .3s ease 0s,transform .6s cubic-bezier(.6,.2,.1,1) 0s;
-        transition: all .3s ease 0s,transform .6s cubic-bezier(.6,.2,.1,1) 0s,-webkit-transform .6s cubic-bezier(.6,.2,.1,1) 0s;
-    }
-    #book .content li:hover .book {
-        -webkit-transform: rotateY(0deg);
-        transform: rotateY(0deg);
-    }
-    .quote {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        position: relative;
-        margin-bottom: 16px;
-        padding: 32px 0;
-    }
-    .quote i:first-child {
-        top: 0;
-        left: 16px;
-    }
-    .quote i {
-        position: absolute;
-        font-size: 24px;
-    }
-    .icon-quote-left:before {
-        content: "\f10d";
-    }
-    [class*=" icon-"]:before, [class^=icon-]:before {
-        font-family: Fontello;
-        font-style: normal;
-        font-weight: 400;
-        display: inline-block;
-        text-decoration: inherit;
-        width: 1em;
-        text-align: center;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1em;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
+}
+h3 {
+    font-size: 1.32rem;
+    font-weight: 400;
+    color: #101012;
+    transition: 0.8s;
+    cursor: pointer;
+}
+h3:hover {
+    transform: translateX(15px);
+}
 </style>
-<main class="content">
-    <div class="container">
-        <div class="card">
+
+<!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        
+        <div class="card-content article-info">
             <!-- 福袋按钮 -->
             <div class="caishendeng">        
-                <div class="guguxian">
-                    <img class="caishenpic gugus" src="/medias/spring-img/gu1.png" />
+                <div class="guguxian wenzhangxian">
+                    <img class="caishenpic gugus" src="/medias/spring-img/caishen.png" />
                 </div>              
             </div>
-            <div class="card-content">
-                <div class="tag-title center-align">
-                    <div class="miaoshus">
-                        <div class="title center-align">“ 博主的书单 ”
+            <!-- 圣诞按钮 -->
+            <div class="shengdandeng">        
+                <div class="shengdanxian" style="left: 50%;">
+                    <img class="shengdanpic fudai" src="/medias/christmas-img/shengdanren4.png" />
+                </div>              
+            </div>
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%88%86%E4%BA%AB/">
+                                <span class="chip bg-color">分享</span>
+                            </a>
+                        
                     </div>
-
-<!-- 书单模块开始 -->
-<div id="book">
-<div class="page">
-<ul class="content"> 
-    <!-- 每个li标签内容代表一本书籍的所有信息 -->
-    <li>
-        <div class="info">
-            <a href="https://book.douban.com/subject/35313227/" target="_blank" rel="noreferrer noopener" class="book-container">
-                <div class="book">
-                    <img src="https://s2.loli.net/2024/01/17/Ro8p5VtAlkTFI6L.png"/>
+                    
                 </div>
-            </a>
-            <div>
-                <h3>《 西方现代思想讲义 》</h3>
-                <p>作者：刘擎</p>
-                <p>出版时间：2021-01</p>
-                <p>阅读进度：完结</p>
-                <p>
-                    <span>读书笔记：</span>
-                    <a href="/posts/3dc5.html" target="_blank" rel="noopener noreferrer"> 西方现代思想讲义 </a>
-                </p>
-                <p> 
-                    <span>推荐指数：</span>
-                    <span></span>
-                    <!-- 推荐指数，多少个星星就有以下多少个i标签 -->
-                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                </p>
-            </div>
-        </div>
-            <p class="description">“ 现代思想路线：由早期的“进步”的乐观主义态度，到晚期的以反思和批判的眼光来审视现代性 ”</p>
-    </li>
-    <!-- 每个li标签内容代表一本书籍的所有信息 -->
-    <li>
-        <div class="info">
-            <a href="https://book.douban.com/subject/7061613/" target="_blank" rel="noreferrer noopener" class="book-container">
-                <div class="book">
-                    <img src="https://s2.loli.net/2024/01/18/P7zD5wRCavnxflN.png"/>
-                </div>
-            </a>
-            <div>
-                <h3>《 Steal Like an Artist 》</h3>
-                <p>作者：Austin Kleon</p>
-                <p>出版时间：2012-2-28</p>
-                <p>阅读进度：完结</p>
-                <p>
-                    <span>读书笔记：</span>
-                    <a href="/posts/f0d9.html" target="_blank" rel="noopener noreferrer"> Steal Like an Artist </a>
-                </p>
-                <p> 
-                    <span>推荐指数：</span>
-                    <span></span>
-                    <!-- 推荐指数，多少个星星就有以下多少个i标签 -->
-                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                </p>
-            </div>
-        </div>
-            <p class="description">“ 艺术家如何看待世界？ ”</p>
-    </li>
-    <li>
-        <div class="info">
-            <a href="https://book.douban.com/subject/36301820/" target="_blank" rel="noreferrer noopener" class="book-container">
-                <div class="book">
-                    <img src="https://s2.loli.net/2024/01/18/pEeoBXlrkiTu5gz.png"/>
-                </div>
-            </a>
-            <div>
-                <h3>《 What's our problem 》</h3>
-                <p>作者：Tim Urban</p>
-                <p>出版时间：???</p>
-                <p>阅读进度：正在阅读...</p>
-                <p>
-                    <span>读书笔记：</span>
-                    <a href="/posts/16bd.html" target="_blank" rel="noopener noreferrer"> What's our problem </a>
-                </p>
-                <p> 
-                    <span>推荐指数：</span>
-                    <span></span>
-                    <!-- 推荐指数，多少个星星就有以下多少个i标签 -->
-                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                </p>
-            </div>
-        </div>
-            <p class="description">“ What the hell is going on in our strange, unprecedented modern times. ”</p>
-    </li>
-        <li>
-        <div class="info">
-            <a href="https://book.douban.com/subject/5318290/" target="_blank" rel="noreferrer noopener" class="book-container">
-                <div class="book">
-                    <img src="https://s2.loli.net/2024/02/18/1YoTBuIqSOJhnyP.jpg"/>
-                </div>
-            </a>
-            <div>
-                <h3>《 Reality Is Broken 》</h3>
-                <p>作者：Jane McGonigal</p>
-                <p>出版时间：2011-1-20</p>
-                <p>阅读进度：正在阅读...</p>
-                <p>
-                    <span>读书笔记：</span>
-                    <a href="/posts/9dde.html" target="_blank" rel="noopener noreferrer"> Reality Is Broken </a>
-                </p>
-                <p> 
-                    <span>推荐指数：</span>
-                    <span></span>
-                    <!-- 推荐指数，多少个星星就有以下多少个i标签 -->
-                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                </p>
-            </div>
-        </div>
-            <p class="description">“  How can we harness the power of games to solve real-world problems and boost global happiness. ”</p>
-    </li>
-            <li>
-        <div class="info">
-            <a href="https://book.douban.com/subject/26312710/" target="_blank" rel="noreferrer noopener" class="book-container">
-                <div class="book">
-                    <img src="https://s2.loli.net/2024/03/04/cdLqeaP65yRxo14.png"/>
-                </div>
-            </a>
-            <div>
-                <h3>《 普通读者 》</h3>
-                <p>作者： 弗吉尼亚·伍尔夫</p>
-                <p>出版时间：2015-3</p>
-                <p>阅读进度：正在阅读...</p>
-                <p>
-                    <span>读书笔记：</span>
-                    <a href="/posts/6168.html" target="_blank" rel="noopener noreferrer"> 普通读者 </a>
-                </p>
-                <p> 
-                    <span>推荐指数：</span>
-                    <span></span>
-                    <!-- 推荐指数，多少个星星就有以下多少个i标签 -->
-                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                </p>
-            </div>
-        </div>
-            <p class="description">“  最强嘴替 ”</p>
-    </li>
-    <li>
-        <div class="info">
-            <a href="https://book.douban.com/subject/27120243/" target="_blank" rel="noreferrer noopener" class="book-container">
-                <div class="book">
-                    <img src="https://s2.loli.net/2024/03/07/XhR1fjk6AMSygoK.png"/>
-                </div>
-            </a>
-            <div>
-                <h3>《 转型中的地方政府（第二版） 》</h3>
-                <p>作者：周黎安</p>
-                <p>出版时间：2017-8</p>
-                <p>阅读进度：正在阅读...</p>
-                <p>
-                    <span>读书笔记：</span>
-                    <a href="/posts/61fe.html" target="_blank" rel="noopener noreferrer"> 转型中的地方政府（第二版） </a>
-                </p>
-                <p> 
-                    <span>推荐指数：</span>
-                    <span></span>
-                    <!-- 推荐指数，多少个星星就有以下多少个i标签 -->
-                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                </p>
-            </div>
-        </div>
-            <p class="description">“ 中国在过去30年取得了经济增长的奇迹之谜 ”</p>
-    </li>
-    </ul>
-    </div>
-</div>
-
-<!-- 书单模块结束 -->
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E8%BD%AC%E8%BD%BD/" class="post-category">
+                                转载
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2024-09-21
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    615
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    2 分
+                </div>
+                
+
+                
+            </div>
         </div>
-      
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <blockquote>
+<p>有一座岛屿，岛上居住着一个部落。这个部落有 1000 人，有着不同的眼睛颜色。在 1000 名岛民中，事实证明，其中 100 人是蓝眼睛，900 人是红眼睛，尽管岛民最初并不知道这些统计数据（当然，他们每个人只能看到 1000 名部落居民中的 999 人）。然而，他们的宗教信仰禁止他们知道自己眼睛的颜色，甚至禁止讨论这个话题；因此，每个居民都可以（并且确实）看到所有其他居民的眼睛颜色，但无法发现自己的眼睛颜色（没有反射表面）。如果部落成员确实发现了自己的眼睛颜色，那么他们的宗教信仰就会迫使他们在第二天中午在村庄广场上举行自杀仪式，让所有人见证。所有的部落成员都是高度逻辑和虔诚的，他们都知道彼此也是高度逻辑和虔诚的（并且他们都知道他们都知道彼此高度逻辑和虔诚，等等）</p>
+<p>有一天，一名蓝眼睛的外国人来到岛上，并赢得了部落的完全信任。一天晚上，他向整个部落讲话，感谢他们的热情款待。然而，由于不了解习俗，这位外国人在称呼中错误地提到了眼睛的颜色，并表示“在世界这个地区看到另一个像我这样的蓝眼睛的人是多么不寻常”。</p>
+<p>这种失礼会对部落产生什么影响（如果有的话）？</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>就这个逻辑谜题而言，“高度逻辑”意味着可以从岛民可获得的信息和观察中逻辑推断出的任何结论，将自动为该岛民所知。</p>
+</blockquote>
+</blockquote>
+<p>这个谜题的有趣之处在于，这里有两个相当合理的论点，却给出了相反的结论：</p>
+<ol>
+<li>老外有没有效果，因为他的评论没有告诉部落任何他们还不知道的事情（部落中的每个人都已经可以看到他们部落中有几个蓝眼睛的人）</li>
+<li>演讲100 天后，所有蓝眼睛的人都自杀了，并且认为：假设部落有 n 个蓝眼睛的人，其中 n 是某个正整数。然后，在旅行者的地址发生后n天，所有n个蓝眼睛的人都自杀了。</li>
+</ol>
 
-        <div class="card">
+            </div>
+            <hr/>
+
             
 
-            
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">LiWen</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://minddiy.top/posts/c4b9.html">https://minddiy.top/posts/c4b9.html</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">LiWen</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
 
-            
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
 
-            
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
 
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E5%88%86%E4%BA%AB/">
+                                    <span class="chip bg-color">分享</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="qq,wechat,weibo,douban" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
             
-            <style>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
     .valine-card {
         margin: 1.5rem auto;
     }
@@ -1709,12 +1628,314 @@ class="themespring" -->
     });
 </script>
 
-            
-			
-			
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/posts/c4b9.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://bing.ee123.net/img/rand?w=1920x1080" class="responsive-img" alt="蓝眼睛和红眼睛">
+                        
+                        <!-- 福袋按钮 -->
+                        <div class="caishendeng">        
+                            <div class="caishenxian wenzhangxian">
+                                <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
+                            </div>              
+                        </div>
+                        <span class="card-title">
+                          <!-- 文章卡片hover线条效果 -->
+                          <span class="titlesline"></span>
+                          蓝眼睛和红眼睛
+                        </span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+有一座岛屿，岛上居住着一个部落。这个部落有 1000 人，有着不同的眼睛颜色。在 1000 名岛民中，事实证明，其中 100 人是蓝眼睛，900 人是红眼睛，尽管岛民最初并不知道这些统计数据（当然，他们每个人只能看到 1000 名部落居民
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-09-21
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%BD%AC%E8%BD%BD/" class="post-category">
+                                    转载
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%88%86%E4%BA%AB/">
+                        <span class="chip bg-color">分享</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
         </div>
+        
+        
+        <div class="article col s12 m6">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/posts/ce59.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://bing.img.run/1920x1080.php" class="responsive-img" alt="套娃">
+                        
+                        <!-- 福袋按钮 -->
+                        <div class="caishendeng">        
+                            <div class="caishenxian wenzhangxian">
+                                <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
+                            </div>              
+                        </div>
+                        <span class="card-title">
+                          <!-- 文章卡片hover线条效果 -->
+                          <span class="titlesline"></span>
+                          套娃
+                        </span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                             
+ 
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-09-19
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%9C%89%E8%B6%A3/" class="post-category">
+                                    有趣
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%88%86%E4%BA%AB/">
+                        <span class="chip bg-color">分享</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
     </div>
+</article>
+<style>
+  .articles .row .article {
+    position: relative;
+  }
+</style>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('30')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Coisini<br />'
+            + '文章作者: LiWen<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+
+        </div>
+        
+        
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        
+        
+        <div class="toc-widget" data-spmid="分享">
+            <div class="toc-title">
+                <i class="far fa-list-alt"></i>
+                &nbsp;&nbsp;目录
+            </div>
+            <div id="toc-content"></div>
+        </div>
+        
+        
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+    
+<div id="floating-toc-btn" class="hide-on-med-and-down" data-spmid="分享">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
 </main>
+
+
 
 
     <style>
