@@ -135,14 +135,14 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/ticktack/index.html</loc>
+    <loc>https://minddiy.top/tags/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://minddiy.top/tags/index.html</loc>
+    <loc>https://minddiy.top/ticktack/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -170,6 +170,13 @@
   </url>
   
   <url>
+    <loc>https://minddiy.top/record/index.html</loc>
+    
+    <lastmod>2023-12-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://minddiy.top/musics/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
@@ -178,13 +185,6 @@
   
   <url>
     <loc>https://minddiy.top/qingdan/index.html</loc>
-    
-    <lastmod>2023-12-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://minddiy.top/record/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -205,14 +205,14 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/friends/index.html</loc>
+    <loc>https://minddiy.top/essay/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://minddiy.top/essay/index.html</loc>
+    <loc>https://minddiy.top/friends/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -226,14 +226,14 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/collection/index.html</loc>
+    <loc>https://minddiy.top/contact/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://minddiy.top/contact/index.html</loc>
+    <loc>https://minddiy.top/collection/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -342,6 +342,13 @@
   </url>
   
   <url>
+    <loc>https://minddiy.top/categories/%E8%AE%A8%E8%AE%BA/</loc>
+    <lastmod>2024-09-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://minddiy.top/categories/%E6%9C%89%E8%B6%A3/</loc>
     <lastmod>2024-09-26</lastmod>
     <changefreq>daily</changefreq>
@@ -350,13 +357,6 @@
   
   <url>
     <loc>https://minddiy.top/categories/%E6%95%85%E4%BA%8B/</loc>
-    <lastmod>2024-09-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://minddiy.top/categories/%E8%AE%A8%E8%AE%BA/</loc>
     <lastmod>2024-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
