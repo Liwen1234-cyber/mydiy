@@ -100,13 +100,6 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/videos/index.html</loc>
-    
-    <lastmod>2023-12-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://minddiy.top/vote/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
@@ -114,7 +107,21 @@
   </url>
   
   <url>
+    <loc>https://minddiy.top/videos/index.html</loc>
+    
+    <lastmod>2023-12-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://minddiy.top/musics/index.html</loc>
+    
+    <lastmod>2023-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://minddiy.top/project/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -135,21 +142,7 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/project/index.html</loc>
-    
-    <lastmod>2023-12-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://minddiy.top/lab/index.html</loc>
-    
-    <lastmod>2023-12-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://minddiy.top/friends/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
@@ -170,6 +163,13 @@
   </url>
   
   <url>
+    <loc>https://minddiy.top/friends/index.html</loc>
+    
+    <lastmod>2023-12-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://minddiy.top/count/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>https://minddiy.top/contact/index.html</loc>
+    <loc>https://minddiy.top/collection/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://minddiy.top/collection/index.html</loc>
+    <loc>https://minddiy.top/contact/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
     
