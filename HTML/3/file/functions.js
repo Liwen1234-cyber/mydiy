@@ -66,6 +66,6 @@ function timeElapse(date){
 	  minutes);
 	var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
 	  diffMinutes * minutes) / seconds);
-	var result = "第 <span class=\"digit\">" + diffDays + "</span> 天 <span class=\"digit\">" + diffHours + "</span> 小时 <span class=\"digit\">" + diffMinutes + "</span> 分钟 <span class=\"digit\">" + diffSeconds + "</span> 秒"; 
+	var result = "第 <span class=\"digit\">" + diffYears + "年 <span class=\"digit\">" + diffDays + "</span> 天 <span class=\"digit\">" + diffHours + "</span> 小时 <span class=\"digit\">" + diffMinutes + "</span> 分钟 <span class=\"digit\">" + diffSeconds + "</span> 秒"; 
 	$("#clock").html(result);
 }
